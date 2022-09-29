@@ -1,0 +1,35 @@
+.container {
+    background: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table th, td {
+    padding-right: 40px;
+}
+user agent stylesheet
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+table {
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+u{
+    color: red;
+}
+p>a {
+    color: yellowgreen;
+}
+tr:nth-child(even) {
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+}
+p:first-of-type {
+    font-size: 36px;
+}
+p{
+    font-size: x-large;
+}
